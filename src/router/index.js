@@ -21,17 +21,17 @@ const routes = [
     component: () => import(/* webpackChunkName: "user" */ '../views/ListView.vue')
   },
   {
-    path: '/findById',
+    path: '/user/findById',
     name: 'SelectView',
     component: () => import(/* webpackChunkName: "user" */ '../views/SelectView.vue')
   },
   {
-    path: '/editById',
+    path: '/user/editById',
     name: 'UpdateView',
     component: () => import(/* webpackChunkName: "user" */ '../views/UpdateView.vue')
   },
   {
-    path: '/save',
+    path: '/user/save',
     name: 'CreateView',
     component: () => import(/* webpackChunkName: "user" */ '../views/CreateView.vue')
   }
